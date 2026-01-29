@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from '../Component/Footer'
 import img1 from '../Image/mall.jpg'
 import img2 from '../Image/surat-castle2.jpg'
 import img3 from '../Image/Gopi-Talav.jpg'
