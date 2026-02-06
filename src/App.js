@@ -18,25 +18,27 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       {/* <Main /> */}
       {/* <Special></Special> */}
       {/* <Home></Home> */}
-      {/* <Footer></Footer>  */}
+      {/* <Footer></Footer> */}
       {/* <Destination></Destination> */}
       {/* <Footer></Footer> */}
       {/* <Blog></Blog> */}
-      <ContactForm></ContactForm>
-      <Contact></Contact>
+
+      {/* <ContactForm></ContactForm> */}
+      {/* <Contact></Contact> */}
+      <Footer></Footer>
 
       {/* <Contact></Contact> */}
       {/* <Hero></Hero> */}
       {/* <Food2></Food2> */}
-      <Routes>
-        {/* // <Route path="/" element={<Home />} /> */}
-        {/* <Route path="/Food2" element={<Food2 />} /> */}
-        <Route path="/Destination" element={<Destination />} />
-      </Routes>
+      {/* <Routes> */}
+      {/* // <Route path="/" element={<Home />} /> */}
+      {/* <Route path="/Food2" element={<Food2 />} /> */}
+      {/* <Route path="/Destination" element={<Destination />} /> */}
+      {/* </Routes> */}
     </div>
   );
 }

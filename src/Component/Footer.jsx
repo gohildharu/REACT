@@ -1,63 +1,46 @@
 import React from "react";
-
-// import footerImg from "../Image/footer-art.png"; // use your image
+// // import "./Footer.css";
+// import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
 
-                {/* Left */}
+                {/* Left Section */}
                 <div className="footer-left">
-                    <h2 className="footer-logo">
-                        SURAT  <span>Travels</span>
-                    </h2>
-
-                    <p>
-                        Premier Manufacturer Of Top-Quality Coated Fabrics.
-                        Unmatched Precision Through Full Integration.
+                    <h2 className="footer-logo">Surat</h2>
+                    <p className="footer-desc">
+                        Surat is also known to be the world's largest diamond manufacturing centre, home to over 5,000 diamond manufacturing units including most advanced, large-scale diamond cutting factories in the world.
                     </p>
 
-                    <div className="social-icons">
-                        <i className="fa-brands fa-facebook-f"></i>
-                        <i className="fa-brands fa-instagram"></i>
-                        <i className="fa-brands fa-x-twitter"></i>
+                    <div className="footer-contact">
+                        <p> 123 surat, abc 10012</p>
+                        <p> +91 12345 67891</p>
+                        <p>travels@gmail.com</p>
                     </div>
                 </div>
 
-                {/* Quick Links */}
+                {/* Links Section */}
                 <div className="footer-links">
-                    <h3>Quick Links</h3>
 
-                    <ul>
-                        <li>Home</li>
-                        <li>Destination</li>
-                        <li>Special Food</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
-
-                    </ul>
+                    <div className="footer-col">
+                        <h4>Famous Places</h4>
+                        <ul>
+                            <li>Temples</li>
+                            <li>Restaurant</li>
+                            <li>Malls</li>
+                            <li>Garden</li>
+                            <li>Beaches</li>
+                        </ul>
+                    </div>
 
                 </div>
-
-                {/* Image */}
-                {/* <div className="footer-image">
-          <img src={footerImg} alt="Nature Art" />
-        </div> */}
-
-                {/* Contact */}
-                <div className="footer-contact">
-                    <h3>Contact Info</h3>
-
-                    <p>📍 E-105 Surat, Gujarat 395007</p>
-                    <p>📞 +91 90786 96850</p>
-                    <p>✉️ travels@gmail.com</p>
-                </div>
-
             </div>
         </footer>
     );
 };
 
 export default Footer;
+
 

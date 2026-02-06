@@ -8,6 +8,8 @@ import img6 from '../Image/temple.jpg'
 import img7 from '../Image/dumas.jpg'
 import img8 from '../Image/galteshwar.jpg'
 import img9 from '../Image/ambika.jpg'
+import img10 from '../Image/water.jpg'
+import img11 from '../Image/iskcon.jpg'
 
 
 const Destination = () => {
@@ -21,12 +23,14 @@ const Destination = () => {
         { title: "Dumas Beach, surat", img: img7 },
         { title: "Galteshwar, surat", img: img8 },
         { title: "Ambika Niketan Temple, surat", img: img9 },
+        { title: "Aquamagicca Water Park, surat", img: img10 },
+        { title: "Iskcon Temple, surat", img: img11 },
 
     ];
 
     return (
         <section className="tours">
-            <h2>Popular Places</h2>
+            <h2>Iconic Places </h2>
             <p>Choose your favourite place</p>
 
             <div className="tour-cards">
