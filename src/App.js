@@ -28,7 +28,7 @@ function App() {
       {/* <Blog></Blog> */}
 
       {/* <ContactForm></ContactForm> */}
-      {/* <Contact></Contact> */}
+      <Contact></Contact>
       <Footer></Footer>
 
       {/* <Contact></Contact> */}
