@@ -3,19 +3,22 @@ import Food from '../Component/Food'
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
+
+
 const Navbar = () => {
-     const navigate = useNavigate();
+    const navigate = useNavigate();
     return (
         <header className="navbar">
             <div className="nav-container">
                 <h2 className="logo">Surat</h2>
 
                 <ul className="nav-links">
-                    <li className="active">Home</li>
-                    <li >Destination</li>
-                    <li  onClick={() => navigate("/food2")}>Special Food</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+                    <li className="active"><Link to="/Home">Home</Link></li>
+                     <li><Link to="/Main">Main</Link></li>
+                    <li><Link to="/destination">Destination</Link></li>
+                    <li><Link to="/food2">Food2</Link></li>
+                    <li><Link to="/About">About</Link></li>
+                    <li><Link to="/Contact">Contact</Link></li>
                 </ul>
                 {/* <button className="nav-btn">Book Now</button> */}
             </div>
@@ -27,7 +30,8 @@ export default Navbar;
 
 
 
-{/* <a class="nav-link pb-1 active" href="../Component/Food2"></a> */}
+{/* <a class="nav-link pb-1 active" href="../Component/Food2"></a> */ }
+
 
 
 

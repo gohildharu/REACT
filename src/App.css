@@ -26,6 +26,7 @@
   list-style: none;
   display: flex;
   gap: 30px;
+  text-decoration: none;
 }
 
 .nav-links li {
@@ -33,6 +34,7 @@
   cursor: pointer;
   font-size: 20px;
   position: relative;
+
 }
 
 .nav-links li::after {
@@ -74,7 +76,7 @@
   }
 }
 
-/* special food */
+/* special food ----------------------------------------------------------*/
 
 
 .tours {
@@ -208,7 +210,7 @@
   }
 }
 
-/* home */
+/* home ---------------------------------------------------------------- */
 
 
 .why-choose {
@@ -231,11 +233,11 @@
   color: #666;
 }
 
-/*  footer */
+/*  footer --------------------------------------------------------------- */
 
 .footer {
   width: 100%;
-  background: #18274e;
+  background: #438ffa;
   padding: 70px 8% 30px;
   color: white;
   font-family: Arial, sans-serif;
@@ -264,7 +266,7 @@
 .footer-desc {
   font-size: 15px;
   line-height: 1.8;
-  color: #cfcfcf;
+  color: white;
   margin-bottom: 30px;
   max-width: 420px;
 }
@@ -275,14 +277,14 @@
   gap: 12px;
   font-size: 14px;
   margin-bottom: 15px;
-  color: #dcdcdc;
+  color: white;
   line-height: 1.6;
 }
 
 .footer-contact svg {
   font-size: 16px;
   margin-top: 4px;
-  color: #6fa8ff;
+  color: white;
 }
 
 /* Right Links Section */
@@ -307,7 +309,7 @@
 .footer-col ul li {
   font-size: 14px;
   margin-bottom: 14px;
-  color: #bfbfbf;
+  color: white;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -399,7 +401,7 @@
 
 
 
-/* contact */
+/* contact ---------------------------------------------------------------- */
 .Contact2 {
   width: 100%;
   padding: 50px 20px;
@@ -470,9 +472,9 @@
   margin-top: 20px;
   padding: 12px 25px;
   background: #0047ab;
-  color: white;
+  color: rgb(199, 113, 113);
   font-size: 16px;
-  border: none;
+  border: 1px solid black;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -502,4 +504,125 @@
 .box h2 {
   font-size: 20px;
   margin-bottom: 15px;
+}
+
+/* About -------------------------------------------- */
+.about-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 8%;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.about-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #0d47a1;
+}
+
+.about-header p {
+  font-size: 18px;
+  max-width: 750px;
+  margin: 15px auto;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Container */
+.about-container h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #0d47a1;
+  margin-bottom: 40px;
+}
+
+/* Grid Layout */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* Card Design */
+.about-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12);
+  transition: 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.18);
+}
+
+.about-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #1565c0;
+}
+
+.about-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-header h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-page {
+    padding: 40px 5%;
+  }
+
+  .about-header h1 {
+    font-size: 35px;
+  }
+
+  .about-header p {
+    font-size: 16px;
+  }
+
+  .about-container h2 {
+    font-size: 26px;
+  }
+
+  .about-card h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-header h1 {
+    font-size: 28px;
+  }
+
+  .about-card {
+    padding: 18px;
+  }
+
+  .about-card p {
+    font-size: 14px;
+  }
 }
