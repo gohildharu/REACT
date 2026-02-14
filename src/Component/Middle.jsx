@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+const Middle = () => {
   return (
     <section className="why-choose">
       <h2>Why Choose Us</h2>
@@ -9,4 +9,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Middle;

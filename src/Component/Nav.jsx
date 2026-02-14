@@ -14,7 +14,7 @@ const Navbar = () => {
 
                 <ul className="nav-links">
                     <li className="active"><Link to="/Home">Home</Link></li>
-                     <li><Link to="/Main">Main</Link></li>
+                    <li><Link to="/Main">Main</Link></li>
                     <li><Link to="/destination">Destination</Link></li>
                     <li><Link to="/food2">Food2</Link></li>
                     <li><Link to="/About">About</Link></li>
@@ -29,8 +29,6 @@ const Navbar = () => {
 export default Navbar;
 
 
-
-{/* <a class="nav-link pb-1 active" href="../Component/Food2"></a> */ }
 
 
 

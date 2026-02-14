@@ -26,7 +26,6 @@
   list-style: none;
   display: flex;
   gap: 30px;
-  text-decoration: none;
 }
 
 .nav-links li {
@@ -34,7 +33,10 @@
   cursor: pointer;
   font-size: 20px;
   position: relative;
+}
 
+.nav-links li a {
+  text-decoration: none;
 }
 
 .nav-links li::after {
@@ -46,11 +48,13 @@
   left: 0;
   bottom: -6px;
   transition: 0.3s;
+
 }
 
 .nav-links li:hover::after,
 .nav-links .active::after {
   width: 100%;
+  list-style: none;
 }
 
 .nav-btn {
@@ -91,7 +95,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .card {
@@ -121,7 +125,7 @@
   cursor: pointer;
 }
 
-/* Section */
+/* Section --------------------------------------------------------------------------*/
 .famous-food {
   padding: 40px 20px;
   text-align: center;
@@ -315,7 +319,7 @@
 }
 
 .footer-col ul li:hover {
-  color: white;
+  color: blueviolet;
   padding-left: 6px;
 }
 
@@ -513,6 +517,8 @@
   padding: 50px 8%;
   background: linear-gradient(to right, #e3f2fd, #ffffff);
   font-family: Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Header */
@@ -625,4 +631,9 @@
   .about-card p {
     font-size: 14px;
   }
+}
+
+/* Main ----------------------------------------------------------------*/
+.Main {
+  margin-top: 20px;
 }

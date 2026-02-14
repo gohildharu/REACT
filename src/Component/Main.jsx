@@ -7,7 +7,7 @@ import img4 from '../Image/tapi.jpg';
 
 function Main() {
   return (
-    <div className="">
+    <div className="Main">
 
       <div
         id="carouselExampleControls"
